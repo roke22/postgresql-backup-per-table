@@ -12,7 +12,7 @@
 ## POSTGRESQL CONFIGURACION ##
 ##############################
 # Servidores a copiar separados por un espacio
-SERVIDORES=(localhost 127.0.0.1)
+SERVIDORES=(servidor1 192.168.1.3 192.168.2.5)
 
 # Directorio donde se guardaran las copias de seguridad
 DIR_COPIAS=/home/roke/backup/
@@ -21,7 +21,7 @@ DIR_COPIAS=/home/roke/backup/
 DIAS_A_GUARDAR=5
 
 # Usuario que se utiliza para el volcado de las bases de datos
-USUARIO=zataca
+USUARIO=usuario
 
 # Base de datos por defecto para conectar
 BD_DEFECTO=db
